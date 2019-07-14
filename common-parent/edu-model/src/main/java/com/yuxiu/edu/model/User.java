@@ -4,6 +4,16 @@ public class User {
     private int id;
     private String username;
     private String password;
+	private Integer quantity;
+
+
+	public Integer getQuantity(){
+		return quantity;
+	}
+	public void setQuantity(){
+		this.Integer=Integer;
+	}
+	
 
     public int getId() {
         return id;
