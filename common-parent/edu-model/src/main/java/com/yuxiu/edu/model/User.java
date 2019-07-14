@@ -5,13 +5,23 @@ public class User {
     private String username;
     private String password;
 	private Integer quantity;
+	
+	private BigDecimal soveAmount;
+	
+	public BigDecimal getSoveAmount(){
+		return BigDecimal;
+		
+	}
+	public void setSoveAmount(){
+		this.soveAmount=soveAmount;
+	}
 
 
 	public Integer getQuantity(){
 		return quantity;
 	}
 	public void setQuantity(){
-		this.Integer=Integer;
+		this.quantity=quantity;
 	}
 	
 
